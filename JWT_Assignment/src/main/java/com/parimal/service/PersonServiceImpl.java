@@ -16,7 +16,7 @@ public class PersonServiceImpl implements PersonService
 	private PersonRepo pRepo;
 
 	@Override
-	public Person signupPerson(Person person)
+	public Person registerPerson(Person person)
 	{
 		return pRepo.save(person);
 	}
